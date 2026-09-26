@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="喵刻 iPet 隐私政策，说明应用如何处理宠物档案、照护记录、iCloud 同步和家庭共享数据。">
+  <meta name="theme-color" content="#f7efdf">
+  <title>隐私政策 · 喵刻 iPet</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f7efdf;
+      --paper-light: #fffbf3;
+      --paper-warm: #fff2df;
+      --ink: #4b3426;
+      --muted: #89796b;
+      --line: #e8d8c4;
+      --peach: #ff9e6a;
+      --apricot: #ffc48b;
+      --caramel: #c98d67;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui, sans-serif;
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      scroll-behavior: smooth;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at 83% 3%, rgba(255, 196, 139, .34), transparent 28rem),
+        radial-gradient(ellipse at 4% 48%, rgba(255, 158, 106, .08), transparent 26rem),
+        linear-gradient(180deg, #f7efdf 0%, #fffaf1 38rem, #f8f1e5 100%);
+      line-height: 1.78;
+    }
+
+    a { color: #98572f; text-underline-offset: .22em; }
+    a:hover { color: #6e3d23; }
+    a:focus-visible { outline: 3px solid var(--peach); outline-offset: 4px; border-radius: 5px; }
+    .page-shell { width: min(100% - 48px, 1160px); margin: 0 auto; padding: 24px 0 56px; }
+    .masthead { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 4px 2px 18px; border-bottom: 1px solid rgba(137, 121, 107, .22); }
+    .brand { display: flex; align-items: center; gap: 11px; min-width: 0; }
+    .brand-mark { width: 43px; height: 43px; flex: 0 0 auto; border: 1px solid rgba(75, 52, 38, .08); border-radius: 14px; box-shadow: 0 4px 12px rgba(75, 52, 38, .1); }
+    .brand-name { font-size: 17px; font-weight: 760; letter-spacing: .025em; line-height: 1.35; }
+    .brand-name span { color: #b7683e; font-weight: 600; }
+    .brand-caption { color: var(--muted); font-size: 11px; letter-spacing: .05em; }
+    .language-nav { display: flex; gap: 7px; padding: 4px; border: 1px solid rgba(137, 121, 107, .2); border-radius: 999px; background: rgba(255, 251, 243, .7); }
+    .language-nav a { min-width: 52px; padding: 5px 10px; border-radius: 999px; color: var(--ink); font-size: 12px; text-align: center; text-decoration: none; transition: background .18s ease, color .18s ease; }
+    .language-nav a:hover { color: #fffaf1; background: #b7683e; }
+
+    .intro {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(220px, .7fr);
+      align-items: center;
+      gap: clamp(12px, 4vw, 52px);
+      min-height: 330px;
+      margin: 28px 0 28px;
+      padding: clamp(28px, 5.5vw, 62px);
+      overflow: hidden;
+      border: 1px solid #efdbc4;
+      border-radius: 28px 28px 28px 8px;
+      background:
+        radial-gradient(circle at 84% 50%, rgba(255, 225, 166, .42), transparent 12rem),
+        linear-gradient(122deg, rgba(255, 251, 243, .98) 0%, rgba(255, 242, 223, .95) 100%);
+      box-shadow: 0 18px 48px rgba(87, 60, 40, .08), inset 0 1px rgba(255, 255, 255, .8);
+    }
+    .intro::before { position: absolute; top: 20px; left: 20px; width: 34px; height: 34px; border-top: 1px solid rgba(201, 141, 103, .38); border-left: 1px solid rgba(201, 141, 103, .38); border-radius: 12px 0 0; content: ""; }
+    .intro::after { position: absolute; right: 24%; bottom: -104px; width: 230px; height: 230px; border: 1px solid rgba(201, 141, 103, .19); border-radius: 50%; content: ""; pointer-events: none; }
+    .intro-copy { position: relative; z-index: 1; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: #a45c32; font-size: 11px; font-weight: 750; letter-spacing: .17em; text-transform: uppercase; }
+    .eyebrow::before { width: 21px; height: 1px; background: var(--peach); content: ""; }
+    h1 { max-width: 12em; margin: 9px 0 13px; font-size: clamp(39px, 6.5vw, 62px); line-height: 1.12; letter-spacing: -.055em; }
+    .intro p { max-width: 650px; margin: 0; color: #685548; font-size: clamp(15px, 2vw, 18px); line-height: 1.85; }
+    .hero-points { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+    .hero-points span { padding: 5px 11px; border: 1px solid rgba(201, 141, 103, .28); border-radius: 999px; background: rgba(255, 251, 243, .68); color: #78543c; font-size: 11px; font-weight: 650; }
+    .updated { display: inline-flex; align-items: center; gap: 9px; margin-top: 23px; color: var(--muted); font-size: 12px; letter-spacing: .025em; }
+    .updated::before { width: 20px; height: 2px; background: var(--peach); content: ""; }
+    .hero-art { position: relative; z-index: 1; display: grid; place-items: center; min-height: 230px; }
+    .hero-art::before { position: absolute; width: min(100%, 270px); aspect-ratio: 1; border: 1px solid rgba(201, 141, 103, .28); border-radius: 50%; box-shadow: 0 0 0 18px rgba(255, 251, 243, .18), 0 0 0 19px rgba(201, 141, 103, .12); content: ""; }
+    .hero-art::after { position: absolute; right: 10%; bottom: 10%; width: 42px; height: 42px; border: 1px solid rgba(201, 141, 103, .3); border-radius: 50%; background: var(--paper-light); content: "✦"; color: #c98d67; display: grid; place-items: center; font-size: 17px; }
+    .hero-art img { position: relative; width: min(88%, 270px); filter: drop-shadow(0 16px 12px rgba(91, 62, 40, .12)); transform: rotate(3deg); }
+
+    .reader-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); align-items: start; gap: 24px; }
+    .toc { position: sticky; top: 18px; padding: 18px 14px 16px; border: 1px solid rgba(201, 141, 103, .25); border-radius: 18px 18px 18px 5px; background: rgba(255, 251, 243, .78); box-shadow: 0 10px 28px rgba(87, 60, 40, .045); }
+    .toc-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin: 0 7px 11px; color: var(--ink); font-size: 14px; font-weight: 750; }
+    .toc-heading span { color: #b17b59; font-family: Georgia, "Times New Roman", serif; font-size: 9px; font-weight: 600; letter-spacing: .13em; }
+    .toc a { display: grid; grid-template-columns: 26px minmax(0, 1fr); align-items: start; gap: 8px; padding: 8px 7px; border-radius: 9px; color: #665244; font-size: 12px; line-height: 1.45; text-decoration: none; }
+    .toc a b { color: #bd7650; font-family: Georgia, "Times New Roman", serif; font-size: 10px; letter-spacing: .04em; }
+    .toc a:hover { color: var(--ink); background: #fff0dd; }
+    .toc-note { margin: 11px 7px 0; padding-top: 11px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; line-height: 1.6; }
+    .policy-copy { overflow: hidden; border: 1px solid rgba(232, 216, 196, .95); border-radius: 22px 22px 22px 6px; background: rgba(255, 252, 246, .88); box-shadow: 0 16px 40px rgba(87, 60, 40, .055); counter-reset: policy-section; }
+    .policy-section { margin: 0; padding: clamp(24px, 4vw, 38px) clamp(23px, 5vw, 48px); border-bottom: 1px solid rgba(232, 216, 196, .82); scroll-margin-top: 24px; counter-increment: policy-section; }
+    .policy-section:last-child { border-bottom: 0; }
+    h2 { display: flex; align-items: center; gap: 13px; margin: 0 0 17px; font-size: clamp(18px, 2vw, 21px); line-height: 1.45; letter-spacing: -.025em; }
+    h2::before { display: grid; place-items: center; width: 34px; height: 34px; flex: 0 0 auto; border: 1px solid rgba(201, 141, 103, .32); border-radius: 12px 12px 12px 4px; background: #fff2df; color: #ab6944; content: counter(policy-section, decimal-leading-zero); font-family: Georgia, "Times New Roman", serif; font-size: 10px; font-weight: 700; letter-spacing: .06em; }
+    h3 { margin: 21px 0 5px; color: #714d37; font-size: 14px; }
+    p { margin: 9px 0; }
+    ul { margin: 9px 0 0; padding-left: 1.2em; }
+    li { margin: 6px 0; padding-left: 3px; }
+    li::marker { color: #d58c61; }
+    strong { color: #65452f; }
+    .notice { margin-top: 17px; padding: 14px 17px; border-left: 3px solid var(--peach); border-radius: 0 12px 12px 0; background: #fff1df; color: #624c3d; font-size: 13px; }
+    .contact-card { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; margin-top: 16px; padding: 17px 19px; border: 1px solid #e7c6a8; border-radius: 15px 15px 15px 5px; background: linear-gradient(115deg, #fff5e8, #fffbf4); }
+    .contact-label { color: var(--muted); font-size: 12px; }
+    .contact-email { display: inline-block; margin-top: 3px; font-size: 15px; font-weight: 720; overflow-wrap: anywhere; }
+    .english { margin-top: 54px; scroll-margin-top: 18px; }
+    .english .intro { display: block; min-height: auto; margin-bottom: 24px; padding: clamp(24px, 4vw, 40px); border-radius: 22px 22px 22px 6px; }
+    .english .intro::before { top: 14px; left: 14px; width: 26px; height: 26px; }
+    .english h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(34px, 5vw, 46px); font-weight: 600; letter-spacing: -.035em; }
+    .english .eyebrow { font-family: Georgia, "Times New Roman", serif; letter-spacing: .13em; }
+    .english h2, .english h3 { letter-spacing: -.015em; }
+    .english .toc a { font-size: 11px; }
+    footer { padding: 25px 4px 0; color: var(--muted); font-size: 11px; letter-spacing: .08em; text-align: center; }
+
+    @media (max-width: 780px) {
+      .page-shell { width: min(100% - 32px, 680px); }
+      .reader-layout { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+      .toc { position: sticky; z-index: 5; top: 0; display: block; padding: 9px 10px; overflow: hidden; border-radius: 12px; backdrop-filter: blur(14px); }
+      .toc-heading, .toc-note { display: none; }
+      .toc-links { display: flex; gap: 5px; overflow-x: auto; scrollbar-width: none; }
+      .toc-links::-webkit-scrollbar { display: none; }
+      .toc a { display: block; flex: 0 0 auto; padding: 7px 10px; border: 1px solid rgba(201, 141, 103, .19); border-radius: 999px; white-space: nowrap; font-size: 11px; }
+      .toc a b { margin-right: 5px; }
+      .policy-copy { border-radius: 17px 17px 17px 5px; }
+      .policy-section { scroll-margin-top: 66px; }
+      .english { margin-top: 40px; }
+    }
+    @media (max-width: 560px) {
+      .page-shell { width: min(100% - 22px, 680px); padding-top: 13px; }
+      .masthead { align-items: flex-start; gap: 8px; padding-bottom: 14px; }
+      .brand { gap: 8px; }
+      .brand-mark { width: 36px; height: 36px; border-radius: 11px; }
+      .brand-name { font-size: 15px; }
+      .brand-caption { font-size: 9px; letter-spacing: 0; }
+      .language-nav { gap: 2px; padding: 3px; }
+      .language-nav a { min-width: 44px; padding: 5px 7px; font-size: 11px; }
+      .intro { grid-template-columns: minmax(0, 1fr) 98px; gap: 4px; min-height: 0; margin: 16px 0 17px; padding: 24px 18px 21px; border-radius: 21px 21px 21px 6px; }
+      .intro::before { top: 11px; left: 11px; width: 22px; height: 22px; }
+      .eyebrow { gap: 6px; font-size: 9px; letter-spacing: .13em; }
+      .eyebrow::before { width: 14px; }
+      h1 { margin: 9px 0 9px; font-size: clamp(34px, 10vw, 44px); }
+      .intro p { font-size: 13px; line-height: 1.72; }
+      .hero-points { gap: 5px; margin-top: 13px; }
+      .hero-points span { padding: 4px 7px; font-size: 9px; }
+      .updated { margin-top: 14px; font-size: 10px; }
+      .updated::before { width: 13px; }
+      .hero-art { min-height: 112px; }
+      .hero-art::before { width: 86px; box-shadow: 0 0 0 8px rgba(255, 251, 243, .18), 0 0 0 9px rgba(201, 141, 103, .12); }
+      .hero-art img { width: 106px; max-width: none; }
+      .hero-art::after { right: -1px; bottom: 2px; width: 27px; height: 27px; font-size: 12px; }
+      .toc { padding: 7px; }
+      .toc a { padding: 6px 8px; font-size: 10px; }
+      .policy-section { padding: 22px 18px; }
+      h2 { gap: 10px; margin-bottom: 13px; font-size: 17px; }
+      h2::before { width: 29px; height: 29px; border-radius: 10px 10px 10px 3px; font-size: 9px; }
+      .policy-section p, .policy-section li { font-size: 13px; }
+      .contact-card { align-items: flex-start; flex-direction: column; padding: 14px; }
+      .contact-email { font-size: 13px; }
+      .english .intro { display: block; padding: 23px 18px; }
+      .english h1 { font-size: 34px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      :root { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="masthead">
+      <div class="brand" aria-label="喵刻 iPet">
+        <img class="brand-mark" src="assets/momentcat-app-icon.png" alt="" aria-hidden="true">
+        <div>
+          <div class="brand-name">喵刻 <span lang="en">MomentCat</span></div>
+          <div class="brand-caption">iPet · 记录，提醒，陪伴每一刻</div>
+        </div>
+      </div>
+      <nav class="language-nav" aria-label="页面语言">
+        <a href="#zh" lang="zh-Hans">中文</a>
+        <a href="#en" lang="en">English</a>
+      </nav>
+    </header>
+
+    <section class="intro" id="zh" lang="zh-Hans">
+      <div class="intro-copy">
+        <div class="eyebrow">MomentCat · iPet</div>
+        <h1>隐私政策</h1>
+        <p>你记录的宠物资料由你掌握。喵刻默认在设备上保存信息；只有在你启用 iCloud 同步或家庭共享时，相关资料才会通过 Apple 的 iCloud 服务同步或分享。</p>
+        <div class="hero-points" aria-label="隐私原则">
+          <span>本机优先</span>
+          <span>按需同步</span>
+          <span>共享由你决定</span>
+        </div>
+        <div class="updated">更新日期：2026 年 9 月 27 日</div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <img src="assets/privacy-shield.png" alt="">
+      </div>
+    </section>
+
+    <div class="reader-layout">
+      <nav class="toc" aria-label="隐私政策目录">
+        <div class="toc-heading">阅读目录 <span>CONTENTS</span></div>
+        <div class="toc-links">
+          <a href="#zh-information"><b>01</b>我们处理哪些信息</a>
+          <a href="#zh-storage"><b>02</b>信息保存在哪里</a>
+          <a href="#zh-permissions"><b>03</b>相机、照片与系统权限</a>
+          <a href="#zh-services"><b>04</b>Apple 服务与第三方</a>
+          <a href="#zh-retention"><b>05</b>保存期限与删除方式</a>
+          <a href="#zh-contact"><b>06</b>政策更新与联系我们</a>
+        </div>
+        <p class="toc-note">喵刻 · 记录，提醒，陪伴每一刻</p>
+      </nav>
+      <div class="policy-copy">
+    <section class="policy-section" id="zh-information" lang="zh-Hans">
+      <h2>我们处理哪些信息</h2>
+      <p>当你使用喵刻时，应用会处理你主动填写、拍摄、选择或导入的信息，包括：</p>
+      <ul>
+        <li>宠物档案，例如昵称、种类、生日、体重及备注；</li>
+        <li>照护与健康记录，例如提醒、疫苗、用药、饮食、日记、照片和视频；</li>
+        <li>你录入的兽医联系方式、账目和物资库存；</li>
+        <li>若你使用 Apple 账号登录，Apple 可能向应用提供账号标识，以及你选择分享的姓名或邮箱。应用在设备上保存这些信息以维持登录状态。</li>
+      </ul>
+      <p>应用使用这些信息来展示和管理宠物资料、安排本机提醒、生成你主动请求的报告或导出文件，并提供你启用的同步和共享功能。</p>
+    </section>
+
+    <section class="policy-section" id="zh-storage" lang="zh-Hans">
+      <h2>信息保存在哪里</h2>
+      <h3>设备本地</h3>
+      <p>未启用 iCloud 同步时，宠物档案和记录保存在你的设备上。应用没有用于收集这些记录的开发者自有服务器。</p>
+      <h3>iCloud 同步</h3>
+      <p>你可以在应用设置中选择启用 iCloud 同步。启用后，宠物资料会通过 Apple CloudKit 保存在与你的 Apple 账号关联的 iCloud 数据库中，以便在你的设备间同步。关闭同步并完全退出、重新打开应用后，会停止后续同步；这不等于删除已经保存在 iCloud 中的数据。</p>
+      <h3>家庭共享</h3>
+      <p>如果你创建或加入家庭共享，所选宠物档案、照护记录、提醒和库存会通过 iCloud 分享给受邀成员。日记、账目和个人设置不会加入家庭共享。受邀成员可以查看共享内容；请只邀请你信任的人。</p>
+      <h3>备份、日历与提醒</h3>
+      <p>你主动导出的备份、报告或分享文件由你选择保存或发送的位置管理。启用日历同步后，应用会把你选择的提醒写入 Apple 日历。应用提醒在设备上安排。</p>
+    </section>
+
+    <section class="policy-section" id="zh-permissions" lang="zh-Hans">
+      <h2>相机、照片与系统权限</h2>
+      <p>当你拍摄或录制内容时，应用会使用相机；录制带声音的视频时会使用麦克风。当你添加已有图片或视频时，应用会使用 iOS 提供的照片选择界面。相关媒体用于你选择的宠物记录、备份或导出。</p>
+      <p>你可以在 iOS“设置”中管理相机、麦克风、照片、通知和日历权限。拒绝或撤销权限后，对应功能可能无法使用。</p>
+    </section>
+
+    <section class="policy-section" id="zh-services" lang="zh-Hans">
+      <h2>Apple 服务与第三方</h2>
+      <ul>
+        <li><strong>iCloud / CloudKit：</strong>按你的选择提供设备间同步和家庭共享；数据由 Apple 按其服务条款和隐私政策处理。</li>
+        <li><strong>Apple 登录与 App Store：</strong>Apple 处理身份验证和应用内购买。喵刻不会收到你的银行卡信息。</li>
+        <li><strong>家庭成员：</strong>只有你通过家庭共享邀请的成员可查看共享范围内的资料。</li>
+      </ul>
+      <p>当前版本不使用第三方广告或分析 SDK，也不把宠物记录发送到开发者运营的服务器。我们不会出售你的个人信息。</p>
+      <p><a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">查看 Apple 隐私政策</a></p>
+    </section>
+
+    <section class="policy-section" id="zh-retention" lang="zh-Hans">
+      <h2>保存期限与删除方式</h2>
+      <p>保存在设备上的资料会留在设备中，直到你在应用中删除相关内容或移除应用。你可以通过邮件联系开发者，咨询资料删除或隐私请求。</p>
+      <p>iCloud 中的资料由 Apple 按你的 Apple 账号和 iCloud 设置保存。关闭同步不会自动清除已有的 iCloud 副本；请通过 Apple 提供的 iCloud 数据管理方式处理。家庭共享成员已同步或另行保存的副本，可能在停止共享后继续保留。你导出的备份和文件也需要在你选择的保存位置删除。</p>
+      <div class="notice">开发者不持有宠物记录的独立服务器副本，因此无法从开发者后台直接查看或删除你个人 iCloud 数据。若需要协助，请通过下方邮箱联系我们；Apple 云端数据仍需由你通过 Apple 账号管理。</div>
+    </section>
+
+    <section class="policy-section" id="zh-contact" lang="zh-Hans">
+      <h2>政策更新与联系我们</h2>
+      <p>应用功能或适用要求变化时，我们会更新本页日期。你继续使用应用前，可以在这里查看最新版本。</p>
+      <div class="contact-card">
+        <div>
+          <div class="contact-label">隐私联系 · 喵刻（iPet）开发者</div>
+          <a class="contact-email" href="mailto:rolf1120802408@gmail.com">rolf1120802408@gmail.com</a>
+        </div>
+        <span class="contact-label">我们会通过邮件回复隐私相关问题。</span>
+      </div>
+    </section>
+
+      </div>
+    </div>
+
+    <section class="english" id="en" lang="en">
+      <div class="intro">
+        <div class="eyebrow">MomentCat · iPet</div>
+        <h1>Privacy Policy</h1>
+        <p>You control the pet information you record. MomentCat stores information on your device by default. Related information is synced or shared through Apple iCloud only when you enable iCloud Sync or Household Sharing.</p>
+        <div class="updated">Last updated: September 27, 2026</div>
+      </div>
+
+      <div class="reader-layout">
+        <nav class="toc" aria-label="Privacy policy contents">
+          <div class="toc-heading">Contents <span>READING GUIDE</span></div>
+          <div class="toc-links">
+            <a href="#en-information"><b>01</b>Information We Handle</a>
+            <a href="#en-storage"><b>02</b>Where Information Is Stored</a>
+            <a href="#en-permissions"><b>03</b>Camera, Photos, and Permissions</a>
+            <a href="#en-services"><b>04</b>Apple Services and Other Parties</a>
+            <a href="#en-retention"><b>05</b>Retention and Deletion</a>
+            <a href="#en-contact"><b>06</b>Updates and Contact</a>
+          </div>
+          <p class="toc-note">MomentCat · Cherish every moment, warm every day.</p>
+        </nav>
+        <div class="policy-copy">
+      <section class="policy-section" id="en-information">
+        <h2>Information We Handle</h2>
+        <p>MomentCat handles information that you enter, capture, select, or import, which may include:</p>
+        <ul>
+          <li>Pet profiles, such as names, species, birthdays, weight, and notes;</li>
+          <li>Care and health records, including reminders, vaccinations, medication, diet, diaries, photos, and videos;</li>
+          <li>Veterinary contact details, expense records, and inventory that you enter;</li>
+          <li>If you sign in with Apple, an account identifier and any name or email Apple provides with your permission. The app stores these details on your device to maintain your sign-in state.</li>
+        </ul>
+        <p>We use this information to display and manage pet records, schedule local reminders, create reports or exports you request, and provide sync or sharing features you enable.</p>
+      </section>
+
+      <section class="policy-section" id="en-storage">
+        <h2>Where Information Is Stored</h2>
+        <h3>On your device</h3>
+        <p>When iCloud Sync is off, pet profiles and records are stored on your device. The app does not use a developer-operated server to collect these records.</p>
+        <h3>iCloud Sync</h3>
+        <p>You may enable iCloud Sync in the app settings. When enabled, pet information is stored through Apple CloudKit in the iCloud database associated with your Apple Account, allowing sync across your devices. After you turn sync off and fully quit and reopen the app, future syncing stops; this does not by itself delete information already stored in iCloud.</p>
+        <h3>Household Sharing</h3>
+        <p>If you create or join a household, selected pet profiles, care records, reminders, and inventory are shared with invited members through iCloud. Diaries, expenses, and personal settings are not included. Invited members can view the shared information, so invite only people you trust.</p>
+        <h3>Backups, Calendar, and Reminders</h3>
+        <p>Exports and backups are managed by the location or recipients you choose. If you enable Calendar Sync, the app writes selected reminders to Apple Calendar. App reminders are scheduled on your device.</p>
+      </section>
+
+      <section class="policy-section" id="en-permissions">
+        <h2>Camera, Photos, and System Permissions</h2>
+        <p>The app uses the camera when you take photos or record video, and the microphone when you record video with sound. When you add existing media, the app uses the iOS photo picker. Media is used for the pet records, backups, or exports you choose.</p>
+        <p>You can manage camera, microphone, photo, notification, and calendar permissions in iOS Settings. Some related features may not work if you deny or revoke a permission.</p>
+      </section>
+
+      <section class="policy-section" id="en-services">
+        <h2>Apple Services and Other Parties</h2>
+        <ul>
+          <li><strong>iCloud / CloudKit:</strong> provides sync and household sharing when you choose to use them. Apple processes data under its own terms and privacy policy.</li>
+          <li><strong>Apple Sign in and App Store:</strong> Apple processes authentication and in-app purchases. MomentCat does not receive your payment card details.</li>
+          <li><strong>Household members:</strong> only people you invite can view information within the shared scope.</li>
+        </ul>
+        <p>The current version does not use third-party advertising or analytics SDKs and does not send pet records to a developer-operated server. We do not sell your personal information.</p>
+        <p><a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Read Apple’s Privacy Policy</a></p>
+      </section>
+
+      <section class="policy-section" id="en-retention">
+        <h2>Retention and Deletion</h2>
+        <p>Information stored on your device remains there until you delete the related content in the app or remove the app. You can contact the developer by email with questions or requests about deletion and privacy.</p>
+        <p>Information in iCloud is retained by Apple according to your Apple Account and iCloud settings. Turning sync off does not automatically clear existing iCloud copies; use Apple’s iCloud data management options. Copies already synced or saved by household members may remain after sharing stops. You must also delete exported backups and files from the locations where you saved them.</p>
+        <div class="notice">The developer does not keep a separate server copy of pet records and cannot directly view or delete data in your private iCloud account. Contact us by email if you need help; cloud data still needs to be managed through your Apple Account.</div>
+      </section>
+
+      <section class="policy-section" id="en-contact">
+        <h2>Updates and Contact</h2>
+        <p>We will update the date on this page when app features or applicable requirements change. Please check this page for the current policy.</p>
+        <div class="contact-card">
+          <div>
+            <div class="contact-label">Privacy contact · MomentCat (iPet) Developer</div>
+            <a class="contact-email" href="mailto:rolf1120802408@gmail.com">rolf1120802408@gmail.com</a>
+          </div>
+          <span class="contact-label">We reply to privacy inquiries by email.</span>
+        </div>
+      </section>
+        </div>
+      </div>
+    </section>
+
+    <footer>喵刻 MomentCat · iPet</footer>
+  </main>
+</body>
+</html>
