@@ -46,7 +46,7 @@ function buildPrivacyContent(locale) {
   const contactCopy = element('div');
   contactCopy.append(element('p', 'contact-label', locale.support.emailLabel));
   const email = element('a', 'contact-email', emailAddress);
-  email.href = supportMailto(locale.code);
+  email.href = supportMailto(locale.support.title);
   contactCopy.append(email);
   contact.append(contactCopy);
 
@@ -61,10 +61,10 @@ function buildSupportContent(locale) {
   section.append(details);
   const contact = element('div', 'support-contact');
   const email = element('a', 'support-button', locale.support.emailLabel);
-  email.href = supportMailto(locale.code);
+  email.href = supportMailto(locale.support.title);
   contact.append(email);
   const address = element('a', 'contact-email support-address', emailAddress);
-  address.href = supportMailto(locale.code);
+  address.href = supportMailto(locale.support.title);
   contact.append(address);
   section.append(contact);
 
@@ -85,7 +85,7 @@ function render(locales, languageCode) {
   document.querySelector('#page-title').textContent = pageCopy.title;
   document.querySelector('#page-intro').textContent = pageCopy.intro;
 
-  const now = new Date('2026-10-02T00:00:00Z');
+  const now = new Date('2026-10-03T00:00:00Z');
   const dateLocale = languageCode === 'zh-Hans' ? 'zh-CN' : languageCode;
   document.querySelector('#updated-date').textContent = new Intl.DateTimeFormat(dateLocale, {
     year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'

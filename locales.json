@@ -483,6 +483,162 @@
     ] },
     "support": { "title": "Допомога та підтримка", "intro": "Щоб повідомити про проблему, залишити відгук або запропонувати функцію, напишіть розробнику MomentCat (iPet).", "details": ["Що сталося та кроки для відтворення проблеми", "Модель пристрою, версії iOS і MomentCat", "Запропоноване покращення або функція"], "emailLabel": "Зв’язатися з підтримкою MomentCat", "privacyLink": "Прочитати політику конфіденційності" }
   },
+  "ca": {
+    "name": "Català",
+    "direction": "ltr",
+    "privacy": {
+      "title": "Política de privacitat",
+      "intro": "Tu controles la informació de les teves mascotes. MomentCat la desa al dispositiu de manera predeterminada. Només se sincronitza o es comparteix mitjançant iCloud d’Apple si actives la sincronització d’iCloud o la compartició familiar.",
+      "paragraphs": [
+        "La informació que introdueixes, captures o importes pot incloure perfils de mascotes, registres de cura i salut, recordatoris, fotos i vídeos, contactes veterinaris, despeses i inventari. Si inicies sessió amb Apple, l’app també desa al dispositiu l’identificador del compte i el nom o l’adreça electrònica que Apple faciliti amb el teu permís.",
+        "Si la sincronització d’iCloud està desactivada, la informació de les mascotes es desa al dispositiu. Quan l’actives, la informació corresponent se sincronitza amb el teu compte d’iCloud mitjançant Apple CloudKit. La compartició familiar inclou només els perfils, registres de cura, recordatoris i inventari que seleccionis; els diaris, les despeses i els ajustos personals no es comparteixen.",
+        "L’accés a la càmera, al micròfon i a les fotos s’utilitza per a les funcions de captura o importació que triïs. La sincronització del calendari afegeix els recordatoris seleccionats a Apple Calendar, i les notificacions serveixen per als recordatoris del dispositiu. Pots gestionar aquests permisos als Ajustos d’iOS.",
+        "Apple proporciona els serveis d’iCloud, CloudKit, inici de sessió i compres de l’App Store. La versió actual no utilitza SDK de publicitat ni d’analítica de tercers, no envia registres de mascotes a servidors gestionats pel desenvolupador i no ven informació personal.",
+        "La informació del dispositiu es conserva fins que eliminis el contingut corresponent o l’app. Desactivar la sincronització no elimina automàticament les còpies existents a iCloud. Les còpies desades pels membres de la família i les còpies de seguretat exportades també poden continuar existint. Per a consultes de privacitat, contacta amb el desenvolupador mitjançant el correu d’aquesta pàgina."
+      ]
+    },
+    "support": {
+      "title": "Ajuda i suport",
+      "intro": "Si tens problemes amb l’app, vols enviar comentaris o proposar funcions, escriu per correu electrònic al desenvolupador de MomentCat (iPet).",
+      "details": [
+        "Què ha passat i quins passos permeten reproduir-ho",
+        "Model del dispositiu, versió d’iOS i versió de MomentCat",
+        "La millora o funció que proposes"
+      ],
+      "emailLabel": "Contacta amb el suport de MomentCat",
+      "privacyLink": "Consulta la política de privacitat"
+    }
+  },
+  "hr": {
+    "name": "Hrvatski",
+    "direction": "ltr",
+    "privacy": {
+      "title": "Pravila privatnosti",
+      "intro": "Vi upravljate podacima o svojim ljubimcima. MomentCat prema zadanim postavkama pohranjuje podatke na vašem uređaju. Povezani podaci sinkroniziraju se ili dijele putem Appleova iClouda samo ako uključite sinkronizaciju s iCloudom ili dijeljenje s obitelji.",
+      "paragraphs": [
+        "Podaci koje unesete, snimite ili uvezete mogu uključivati profile ljubimaca, evidenciju njege i zdravlja, podsjetnike, fotografije i videozapise, kontakte veterinara, troškove i zalihe. Ako se prijavite putem Applea, aplikacija na uređaju pohranjuje i identifikator računa te ime ili e-adresu koje Apple dostavi uz vaše dopuštenje.",
+        "Kad je sinkronizacija s iCloudom isključena, podaci o ljubimcima pohranjuju se na vašem uređaju. Kad je uključena, povezani se podaci sinkroniziraju s vašim iCloud računom putem Appleova CloudKita. Dijeljenje s obitelji obuhvaća samo profile, evidenciju njege, podsjetnike i zalihe koje odaberete; dnevnici, troškovi i osobne postavke ne dijele se.",
+        "Pristup kameri, mikrofonu i fotografijama služi za snimanje ili uvoz koji odaberete. Sinkronizacija kalendara dodaje odabrane podsjetnike u Appleov Kalendar, a obavijesti služe za podsjetnike na vašem uređaju. Ta dopuštenja možete upravljati u postavkama iOS-a.",
+        "Apple pruža usluge iClouda, CloudKita, prijave i kupnji u App Storeu. Trenutačna verzija ne upotrebljava SDK-ove trećih strana za oglašavanje ni analitiku, ne šalje evidenciju ljubimaca na poslužitelje kojima upravlja razvojni programer i ne prodaje osobne podatke.",
+        "Podaci na uređaju ostaju ondje dok ne izbrišete povezani sadržaj ili aplikaciju. Isključivanje sinkronizacije ne briše automatski postojeće kopije na iCloudu. Mogu ostati i kopije koje su spremili članovi obitelji te izvezene sigurnosne kopije. Za pitanja o privatnosti obratite se razvojnom programeru na adresu e-pošte navedenu na ovoj stranici."
+      ]
+    },
+    "support": {
+      "title": "Pomoć i podrška",
+      "intro": "Ako imate problem s aplikacijom, želite poslati povratne informacije ili predložiti novu značajku, pošaljite e-poruku razvojnom programeru aplikacije MomentCat (iPet).",
+      "details": [
+        "Što se dogodilo i koraci za ponavljanje problema",
+        "Model uređaja, verzija iOS-a i verzija aplikacije MomentCat",
+        "Poboljšanje ili značajka koju predlažete"
+      ],
+      "emailLabel": "Kontaktirajte podršku za MomentCat",
+      "privacyLink": "Pročitajte pravila privatnosti"
+    }
+  },
+  "sl": {
+    "name": "Slovenščina",
+    "direction": "ltr",
+    "privacy": {
+      "title": "Pravilnik o zasebnosti",
+      "intro": "Podatke o svojih hišnih ljubljenčkih imate pod nadzorom. MomentCat jih privzeto shrani v vaši napravi. Povezani podatki se sinhronizirajo ali delijo prek Applove storitve iCloud samo, če vklopite sinhronizacijo z iCloudom ali skupno rabo z družino.",
+      "paragraphs": [
+        "Podatki, ki jih vnesete, posnamete ali uvozite, lahko vključujejo profile ljubljenčkov, zapise o oskrbi in zdravju, opomnike, fotografije in videoposnetke, stike veterinarjev, stroške in zalogo. Če se prijavite z računom Apple, aplikacija v napravi shrani tudi identifikator računa ter ime ali e-poštni naslov, ki ju Apple posreduje z vašim dovoljenjem.",
+        "Ko je sinhronizacija z iCloudom izklopljena, se podatki o ljubljenčkih shranjujejo v vaši napravi. Ko jo vklopite, se povezani podatki prek Applovega CloudKita sinhronizirajo z vašim računom iCloud. Skupna raba z družino vključuje samo izbrane profile, zapise o oskrbi, opomnike in zalogo; dnevniki, stroški in osebne nastavitve se ne delijo.",
+        "Dostop do kamere, mikrofona in fotografij se uporablja za funkcije snemanja ali uvoza, ki jih izberete. Sinhronizacija koledarja doda izbrane opomnike v Apple Koledar, obvestila pa omogočajo opomnike v napravi. Ta dovoljenja lahko upravljate v nastavitvah sistema iOS.",
+        "Apple zagotavlja storitve iCloud, CloudKit, prijavo in nakupe v App Store. Trenutna različica ne uporablja oglaševalskih ali analitičnih SDK-jev tretjih oseb, ne pošilja zapisov o ljubljenčkih na strežnike, ki jih upravlja razvijalec, in ne prodaja osebnih podatkov.",
+        "Podatki v napravi ostanejo, dokler ne izbrišete povezane vsebine ali aplikacije. Izklop sinhronizacije ne izbriše samodejno obstoječih kopij v iCloudu. Ohranijo se lahko tudi kopije, ki so jih shranili družinski člani, in izvožene varnostne kopije. Za vprašanja o zasebnosti se obrnite na razvijalca prek e-poštnega naslova na tej strani."
+      ]
+    },
+    "support": {
+      "title": "Pomoč in podpora",
+      "intro": "Če imate težavo z aplikacijo, želite poslati povratne informacije ali predlagati funkcijo, pišite razvijalcu aplikacije MomentCat (iPet).",
+      "details": [
+        "Kaj se je zgodilo in koraki za ponovitev težave",
+        "Model naprave, različica sistema iOS in različica aplikacije MomentCat",
+        "Predlog izboljšave ali funkcije"
+      ],
+      "emailLabel": "Pišite podpori MomentCat",
+      "privacyLink": "Preberite pravilnik o zasebnosti"
+    }
+  },
+  "gu": {
+    "name": "ગુજરાતી",
+    "direction": "ltr",
+    "privacy": {
+      "title": "ગોપનીયતા નીતિ",
+      "intro": "તમે નોંધો છો તે પાળતુ પ્રાણીની માહિતી પર તમારું નિયંત્રણ છે. MomentCat મૂળભૂત રીતે માહિતી તમારા ઉપકરણ પર સંગ્રહે છે. iCloud Sync અથવા Family Sharing ચાલુ કરો ત્યારે જ સંબંધિત માહિતી Apple iCloud મારફતે સિંક અથવા શેર થાય છે.",
+      "paragraphs": [
+        "તમે દાખલ કરો, ફોટો લો અથવા આયાત કરો તે માહિતીમાં પાળતુ પ્રાણીની પ્રોફાઇલ, સંભાળ અને આરોગ્યની નોંધો, રિમાઇન્ડર, ફોટા અને વિડિયો, પશુચિકિત્સકના સંપર્કો, ખર્ચ અને ઇન્વેન્ટરીનો સમાવેશ થઈ શકે છે. Apple સાથે સાઇન ઇન કરો તો તમારી મંજૂરીથી Apple આપેલું એકાઉન્ટ ઓળખચિહ્ન અને નામ અથવા ઇમેઇલ પણ એપ તમારા ઉપકરણ પર સંગ્રહે છે.",
+        "iCloud Sync બંધ હોય ત્યારે પાળતુ પ્રાણીની માહિતી તમારા ઉપકરણ પર સંગ્રહાય છે. ચાલુ કરો ત્યારે સંબંધિત માહિતી Apple CloudKit મારફતે તમારા iCloud એકાઉન્ટ સાથે સિંક થાય છે. Family Sharingમાં તમે પસંદ કરેલી પ્રોફાઇલ, સંભાળની નોંધો, રિમાઇન્ડર અને ઇન્વેન્ટરી જ શેર થાય છે; ડાયરી, ખર્ચ અને વ્યક્તિગત સેટિંગ્સ શેર થતી નથી.",
+        "કેમેરા, માઇક્રોફોન અને ફોટાની ઍક્સેસ તમે પસંદ કરેલા ફોટા લેવા, રેકોર્ડ કરવા અથવા આયાત કરવાના કાર્યો માટે વપરાય છે. Calendar Sync પસંદ કરેલા રિમાઇન્ડર Apple Calendarમાં ઉમેરે છે અને સૂચનાઓ ઉપકરણ પરના રિમાઇન્ડર માટે વપરાય છે. તમે iOS Settingsમાં આ પરવાનગીઓ સંચાલિત કરી શકો છો.",
+        "iCloud, CloudKit, સાઇન-ઇન અને App Store ખરીદીની સેવાઓ Apple આપે છે. વર્તમાન આવૃત્તિ તૃતીય પક્ષના જાહેરાત અથવા એનાલિટિક્સ SDK વાપરતી નથી, પાળતુ પ્રાણીની નોંધો ડેવલપર દ્વારા સંચાલિત સર્વર પર મોકલતી નથી અને વ્યક્તિગત માહિતી વેચતી નથી.",
+        "ઉપકરણમાં રહેલી માહિતી સંબંધિત સામગ્રી અથવા એપ કાઢી નાખો ત્યાં સુધી રહે છે. સિંક બંધ કરવાથી iCloudમાં રહેલી નકલો આપમેળે કાઢી નાખાતી નથી. પરિવારના સભ્યોએ સાચવેલી નકલો અને નિકાસ કરેલા બેકઅપ પણ રહી શકે છે. ગોપનીયતા અંગેના પ્રશ્નો માટે આ પેજ પરના ઇમેઇલથી ડેવલપરનો સંપર્ક કરો."
+      ]
+    },
+    "support": {
+      "title": "મદદ અને સપોર્ટ",
+      "intro": "એપમાં સમસ્યા આવે, પ્રતિસાદ આપવો હોય અથવા નવી સુવિધા સૂચવવી હોય તો MomentCat (iPet)ના ડેવલપરને ઇમેઇલ કરો.",
+      "details": [
+        "શું થયું અને સમસ્યા ફરી કેવી રીતે થાય તેનાં પગલાં",
+        "ઉપકરણનું મોડેલ, iOS આવૃત્તિ અને MomentCat આવૃત્તિ",
+        "તમે સૂચવો તે સુધારો અથવા સુવિધા"
+      ],
+      "emailLabel": "MomentCat સપોર્ટનો સંપર્ક કરો",
+      "privacyLink": "ગોપનીયતા નીતિ વાંચો"
+    }
+  },
+  "kn": {
+    "name": "ಕನ್ನಡ",
+    "direction": "ltr",
+    "privacy": {
+      "title": "ಗೌಪ್ಯತಾ ನೀತಿ",
+      "intro": "ನೀವು ದಾಖಲಿಸುವ ಸಾಕುಪ್ರಾಣಿಗಳ ಮಾಹಿತಿಯನ್ನು ನೀವು ನಿಯಂತ್ರಿಸುತ್ತೀರಿ. MomentCat ಸಾಮಾನ್ಯವಾಗಿ ಮಾಹಿತಿಯನ್ನು ನಿಮ್ಮ ಸಾಧನದಲ್ಲೇ ಸಂಗ್ರಹಿಸುತ್ತದೆ. iCloud Sync ಅಥವಾ Family Sharing ಅನ್ನು ನೀವು ಆನ್ ಮಾಡಿದಾಗ ಮಾತ್ರ ಸಂಬಂಧಿತ ಮಾಹಿತಿ Apple iCloud ಮೂಲಕ ಸಿಂಕ್ ಅಥವಾ ಹಂಚಿಕೆಯಾಗುತ್ತದೆ.",
+      "paragraphs": [
+        "ನೀವು ನಮೂದಿಸುವ, ಚಿತ್ರಿಸುವ ಅಥವಾ ಆಮದು ಮಾಡುವ ಮಾಹಿತಿಯಲ್ಲಿ ಸಾಕುಪ್ರಾಣಿಗಳ ಪ್ರೊಫೈಲ್‌ಗಳು, ಆರೈಕೆ ಮತ್ತು ಆರೋಗ್ಯದ ದಾಖಲೆಗಳು, ಜ್ಞಾಪನೆಗಳು, ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳು, ಪಶುವೈದ್ಯರ ಸಂಪರ್ಕಗಳು, ವೆಚ್ಚಗಳು ಮತ್ತು ದಾಸ್ತಾನು ಇರಬಹುದು. Apple ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿದರೆ, ನಿಮ್ಮ ಅನುಮತಿಯೊಂದಿಗೆ Apple ನೀಡಿದ ಖಾತೆ ಗುರುತು ಮತ್ತು ಹೆಸರು ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸವನ್ನೂ ಆಪ್ ಸಾಧನದಲ್ಲಿ ಸಂಗ್ರಹಿಸುತ್ತದೆ.",
+        "iCloud Sync ಆಫ್ ಆಗಿರುವಾಗ ಸಾಕುಪ್ರಾಣಿಗಳ ಮಾಹಿತಿ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಸಂಗ್ರಹವಾಗಿರುತ್ತದೆ. ಅದನ್ನು ಆನ್ ಮಾಡಿದಾಗ ಸಂಬಂಧಿತ ಮಾಹಿತಿ Apple CloudKit ಮೂಲಕ ನಿಮ್ಮ iCloud ಖಾತೆಗೆ ಸಿಂಕ್ ಆಗುತ್ತದೆ. Family Sharingನಲ್ಲಿ ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ ಪ್ರೊಫೈಲ್‌ಗಳು, ಆರೈಕೆ ದಾಖಲೆಗಳು, ಜ್ಞಾಪನೆಗಳು ಮತ್ತು ದಾಸ್ತಾನು ಮಾತ್ರ ಹಂಚಿಕೆಯಾಗುತ್ತವೆ; ದಿನಚರಿಗಳು, ವೆಚ್ಚಗಳು ಮತ್ತು ವೈಯಕ್ತಿಕ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಹಂಚಿಕೆಯಾಗುವುದಿಲ್ಲ.",
+        "ಕ್ಯಾಮೆರಾ, ಮೈಕ್ರೋಫೋನ್ ಮತ್ತು ಫೋಟೋಗಳಿಗೆ ಪ್ರವೇಶವನ್ನು ನೀವು ಆಯ್ಕೆ ಮಾಡಿದ ಚಿತ್ರಿಸುವ, ದಾಖಲಿಸುವ ಅಥವಾ ಆಮದು ಮಾಡುವ ವೈಶಿಷ್ಟ್ಯಗಳಿಗೆ ಬಳಸಲಾಗುತ್ತದೆ. Calendar Sync ಆಯ್ಕೆ ಮಾಡಿದ ಜ್ಞಾಪನೆಗಳನ್ನು Apple Calendarಗೆ ಸೇರಿಸುತ್ತದೆ ಮತ್ತು ಸೂಚನೆಗಳು ಸಾಧನದಲ್ಲಿನ ಜ್ಞಾಪನೆಗಳಿಗೆ ನೆರವಾಗುತ್ತವೆ. iOS Settingsನಲ್ಲಿ ಈ ಅನುಮತಿಗಳನ್ನು ನಿರ್ವಹಿಸಬಹುದು.",
+        "iCloud, CloudKit, ಸೈನ್-ಇನ್ ಮತ್ತು App Store ಖರೀದಿ ಸೇವೆಗಳನ್ನು Apple ಒದಗಿಸುತ್ತದೆ. ಪ್ರಸ್ತುತ ಆವೃತ್ತಿ ಮೂರನೇ ವ್ಯಕ್ತಿಯ ಜಾಹೀರಾತು ಅಥವಾ ವಿಶ್ಲೇಷಣಾ SDKಗಳನ್ನು ಬಳಸುವುದಿಲ್ಲ, ಸಾಕುಪ್ರಾಣಿಗಳ ದಾಖಲೆಗಳನ್ನು ಡೆವಲಪರ್ ನಿರ್ವಹಿಸುವ ಸರ್ವರ್‌ಗೆ ಕಳುಹಿಸುವುದಿಲ್ಲ ಮತ್ತು ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಮಾರಾಟ ಮಾಡುವುದಿಲ್ಲ.",
+        "ಸಂಬಂಧಿತ ವಿಷಯ ಅಥವಾ ಆಪ್ ಅಳಿಸುವವರೆಗೆ ಸಾಧನದಲ್ಲಿನ ಮಾಹಿತಿ ಉಳಿಯುತ್ತದೆ. ಸಿಂಕ್ ಆಫ್ ಮಾಡಿದರೆ iCloudನಲ್ಲಿರುವ ಪ್ರತಿಗಳು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಳಿಯುವುದಿಲ್ಲ. ಕುಟುಂಬದ ಸದಸ್ಯರು ಉಳಿಸಿದ ಪ್ರತಿಗಳು ಮತ್ತು ರಫ್ತು ಮಾಡಿದ ಬ್ಯಾಕಪ್‌ಗಳೂ ಉಳಿಯಬಹುದು. ಗೌಪ್ಯತೆ ಕುರಿತು ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ ಈ ಪುಟದಲ್ಲಿರುವ ಇಮೇಲ್ ಮೂಲಕ ಡೆವಲಪರ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ."
+      ]
+    },
+    "support": {
+      "title": "ಸಹಾಯ ಮತ್ತು ಬೆಂಬಲ",
+      "intro": "ಆಪ್ ಸಮಸ್ಯೆಗಳು, ಪ್ರತಿಕ್ರಿಯೆ ಅಥವಾ ವೈಶಿಷ್ಟ್ಯದ ಸಲಹೆಗಳಿಗಾಗಿ MomentCat (iPet) ಡೆವಲಪರ್‌ಗೆ ಇಮೇಲ್ ಮಾಡಿ.",
+      "details": [
+        "ಏನಾಯಿತು ಮತ್ತು ಸಮಸ್ಯೆಯನ್ನು ಮರುಕಳಿಸುವ ಹಂತಗಳು",
+        "ಸಾಧನದ ಮಾದರಿ, iOS ಆವೃತ್ತಿ ಮತ್ತು MomentCat ಆವೃತ್ತಿ",
+        "ನೀವು ಸೂಚಿಸುವ ಸುಧಾರಣೆ ಅಥವಾ ವೈಶಿಷ್ಟ್ಯ"
+      ],
+      "emailLabel": "MomentCat ಬೆಂಬಲವನ್ನು ಸಂಪರ್ಕಿಸಿ",
+      "privacyLink": "ಗೌಪ್ಯತಾ ನೀತಿ ಓದಿ"
+    }
+  },
+  "ml": {
+    "name": "മലയാളം",
+    "direction": "ltr",
+    "privacy": {
+      "title": "സ്വകാര്യതാ നയം",
+      "intro": "നിങ്ങൾ രേഖപ്പെടുത്തുന്ന വളർത്തുമൃഗങ്ങളുടെ വിവരങ്ങൾ നിങ്ങളുടെ നിയന്ത്രണത്തിലാണ്. MomentCat സാധാരണയായി വിവരങ്ങൾ നിങ്ങളുടെ ഉപകരണത്തിൽ സൂക്ഷിക്കുന്നു. iCloud Sync അല്ലെങ്കിൽ Family Sharing നിങ്ങൾ ഓണാക്കിയാൽ മാത്രമേ ബന്ധപ്പെട്ട വിവരങ്ങൾ Apple iCloud വഴി സമന്വയിപ്പിക്കുകയോ പങ്കിടുകയോ ചെയ്യൂ.",
+      "paragraphs": [
+        "നിങ്ങൾ നൽകുന്നതോ ചിത്രീകരിക്കുന്നതോ ഇറക്കുമതി ചെയ്യുന്നതോ ആയ വിവരങ്ങളിൽ വളർത്തുമൃഗങ്ങളുടെ പ്രൊഫൈലുകൾ, പരിചരണ-ആരോഗ്യ രേഖകൾ, ഓർമ്മപ്പെടുത്തലുകൾ, ഫോട്ടോകളും വീഡിയോകളും, മൃഗഡോക്ടർമാരുടെ ബന്ധപ്പെടാനുള്ള വിവരങ്ങൾ, ചെലവുകൾ, സാധനശേഖരം എന്നിവ ഉൾപ്പെടാം. Apple ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്താൽ, നിങ്ങളുടെ അനുമതിയോടെ Apple നൽകുന്ന അക്കൗണ്ട് തിരിച്ചറിയൽ വിവരവും പേരോ ഇമെയിൽ വിലാസമോ ആപ്പ് ഉപകരണത്തിൽ സൂക്ഷിക്കും.",
+        "iCloud Sync ഓഫായിരിക്കുമ്പോൾ വളർത്തുമൃഗങ്ങളുടെ വിവരങ്ങൾ നിങ്ങളുടെ ഉപകരണത്തിൽ സൂക്ഷിക്കും. അത് ഓണാക്കുമ്പോൾ ബന്ധപ്പെട്ട വിവരങ്ങൾ Apple CloudKit വഴി നിങ്ങളുടെ iCloud അക്കൗണ്ടുമായി സമന്വയിപ്പിക്കും. Family Sharing വഴി നിങ്ങൾ തിരഞ്ഞെടുത്ത പ്രൊഫൈലുകൾ, പരിചരണ രേഖകൾ, ഓർമ്മപ്പെടുത്തലുകൾ, സാധനശേഖരം എന്നിവ മാത്രമേ പങ്കിടൂ; ഡയറി, ചെലവുകൾ, വ്യക്തിഗത ക്രമീകരണങ്ങൾ എന്നിവ പങ്കിടില്ല.",
+        "നിങ്ങൾ തിരഞ്ഞെടുക്കുന്ന ചിത്രീകരണത്തിനോ റെക്കോർഡ് ചെയ്യുന്നതിനോ ഇറക്കുമതി ചെയ്യുന്നതിനോ ക്യാമറ, മൈക്രോഫോൺ, ഫോട്ടോകൾ എന്നിവയിലേക്കുള്ള പ്രവേശനം ഉപയോഗിക്കുന്നു. Calendar Sync തിരഞ്ഞെടുത്ത ഓർമ്മപ്പെടുത്തലുകൾ Apple Calendar-ലേക്ക് ചേർക്കുന്നു; അറിയിപ്പുകൾ ഉപകരണത്തിലെ ഓർമ്മപ്പെടുത്തലുകൾക്കായി ഉപയോഗിക്കുന്നു. iOS Settings-ൽ ഈ അനുമതികൾ നിയന്ത്രിക്കാം.",
+        "iCloud, CloudKit, സൈൻ-ഇൻ, App Store വാങ്ങൽ സേവനങ്ങൾ Apple നൽകുന്നു. നിലവിലെ പതിപ്പ് മൂന്നാം കക്ഷി പരസ്യങ്ങളുടെയോ വിശകലനത്തിന്റെയോ SDK-കൾ ഉപയോഗിക്കുന്നില്ല, വളർത്തുമൃഗങ്ങളുടെ രേഖകൾ ഡെവലപ്പർ നടത്തുന്ന സെർവറിലേക്ക് അയക്കുന്നില്ല, വ്യക്തിഗത വിവരങ്ങൾ വിൽക്കുന്നില്ല.",
+        "ബന്ധപ്പെട്ട ഉള്ളടക്കമോ ആപ്പോ നിങ്ങൾ നീക്കം ചെയ്യുന്നതുവരെ ഉപകരണത്തിലെ വിവരങ്ങൾ തുടരും. സമന്വയം ഓഫാക്കുന്നത് iCloud-ലുള്ള നിലവിലുള്ള പകർപ്പുകൾ സ്വയമേവ ഇല്ലാതാക്കില്ല. കുടുംബാംഗങ്ങൾ സൂക്ഷിച്ച പകർപ്പുകളും കയറ്റുമതി ചെയ്ത ബാക്കപ്പുകളും തുടർന്നുണ്ടാകാം. സ്വകാര്യതയെക്കുറിച്ചുള്ള ചോദ്യങ്ങൾക്ക് ഈ പേജിലെ ഇമെയിൽ വഴി ഡെവലപ്പറെ ബന്ധപ്പെടുക."
+      ]
+    },
+    "support": {
+      "title": "സഹായവും പിന്തുണയും",
+      "intro": "ആപ്പിലെ പ്രശ്നങ്ങൾ അറിയിക്കാനോ അഭിപ്രായം നൽകാനോ പുതിയ സവിശേഷത നിർദ്ദേശിക്കാനോ MomentCat (iPet) ഡെവലപ്പർക്ക് ഇമെയിൽ അയയ്ക്കുക.",
+      "details": [
+        "എന്താണ് സംഭവിച്ചതെന്നും പ്രശ്നം വീണ്ടും ഉണ്ടാക്കാനുള്ള ഘട്ടങ്ങളും",
+        "ഉപകരണത്തിന്റെ മോഡൽ, iOS പതിപ്പ്, MomentCat പതിപ്പ്",
+        "നിങ്ങൾ നിർദ്ദേശിക്കുന്ന മെച്ചപ്പെടുത്തലോ സവിശേഷതയോ"
+      ],
+      "emailLabel": "MomentCat പിന്തുണയെ ബന്ധപ്പെടുക",
+      "privacyLink": "സ്വകാര്യതാ നയം വായിക്കുക"
+    }
+  },
   "fa": {
     "name": "فارسی", "direction": "rtl",
     "privacy": { "title": "سیاست حفظ حریم خصوصی", "intro": "کنترل اطلاعاتی که درباره حیوانات خانگی ثبت می‌کنید در اختیار شماست. MomentCat به‌طور پیش‌فرض اطلاعات را روی دستگاهتان نگه می‌دارد. همگام‌سازی یا اشتراک‌گذاری از طریق iCloud اپل فقط با فعال‌کردن همگام‌سازی iCloud یا اشتراک‌گذاری خانوادگی انجام می‌شود.", "paragraphs": [
@@ -548,6 +704,32 @@
       "डिव्हाइसवरील माहिती संबंधित नोंदी किंवा अॅप हटवेपर्यंत राहते. Sync बंद केल्याने iCloud मधील आधीच्या प्रती आपोआप हटत नाहीत. कुटुंबीयांनी जतन केलेल्या प्रती आणि निर्यात केलेले बॅकअपही राहू शकतात. गोपनीयतेच्या प्रश्नांसाठी या पृष्ठावरील ईमेलवर संपर्क करा."
     ] },
     "support": { "title": "मदत आणि समर्थन", "intro": "अॅपमधील समस्या, अभिप्राय किंवा नवीन सुविधेच्या विनंतीसाठी MomentCat (iPet) विकासकाला ईमेल करा.", "details": ["काय झाले आणि समस्या पुन्हा घडवण्याच्या पायऱ्या", "डिव्हाइस मॉडेल, iOS आवृत्ती आणि MomentCat आवृत्ती", "तुमची सुधारणा किंवा सुविधा सूचना"], "emailLabel": "MomentCat समर्थनाशी संपर्क करा", "privacyLink": "गोपनीयता धोरण वाचा" }
+  },
+  "ta": {
+    "name": "தமிழ்",
+    "direction": "ltr",
+    "privacy": {
+      "title": "தனியுரிமைக் கொள்கை",
+      "intro": "நீங்கள் பதிவு செய்யும் செல்லப்பிராணியின் தகவலை நீங்கள் கட்டுப்படுத்துகிறீர்கள். MomentCat முன்னிருப்பாக உங்கள் சாதனத்தில் தகவலைச் சேமிக்கிறது. நீங்கள் iCloud ஒத்திசைவு அல்லது வீட்டுப் பகிர்வை இயக்கும் போது மட்டுமே தொடர்புடைய தகவல்கள் Apple iCloud மூலம் ஒத்திசைக்கப்படும் அல்லது பகிரப்படும்.",
+      "paragraphs": [
+        "நீங்கள் உள்ளிடும், கைப்பற்றும் அல்லது இறக்குமதி செய்யும் தகவலில் செல்லப்பிராணி சுயவிவரங்கள், பராமரிப்பு மற்றும் சுகாதாரப் பதிவுகள், நினைவூட்டல்கள், புகைப்படங்கள் மற்றும் வீடியோக்கள், கால்நடைத் தொடர்புகள், செலவுகள் மற்றும் சரக்கு ஆகியவை அடங்கும். நீங்கள் Apple உடன் உள்நுழைவைப் பயன்படுத்தினால், ஆப்ஸ் உங்கள் சாதனத்தில் கணக்கு அடையாளங்காட்டியையும், உங்கள் அனுமதியுடன் Apple வழங்கும் பெயர் அல்லது மின்னஞ்சலையும் சேமிக்கும்.",
+        "iCloud Sync முடக்கத்தில் இருக்கும்போது, ​​உங்கள் சாதனத்தில் செல்லப்பிராணி தகவல் சேமிக்கப்படும். இயக்கப்பட்டால், தொடர்புடைய தகவல் Apple CloudKit மூலம் உங்கள் iCloud கணக்குடன் ஒத்திசைக்கப்படும். Household Sharing (வீட்டுப் பகிர்வு) என்பது தேர்ந்தெடுக்கப்பட்ட செல்லப்பிராணி சுயவிவரங்கள், பராமரிப்புப் பதிவுகள், நினைவூட்டல்கள் மற்றும் சரக்குகளை மட்டுமே உள்ளடக்கியது; நாட்குறிப்புகள், செலவுகள் மற்றும் தனிப்பட்ட அமைப்புகள் பகிரப்படவில்லை.",
+        "கேமரா, மைக்ரோஃபோன் மற்றும் புகைப்பட அணுகல் ஆகியவை நீங்கள் தேர்ந்தெடுக்கும் பதிவு அல்லது இறக்குமதி அம்சங்களை ஆதரிக்கின்றன. Calendar Sync ஆனது Apple Calendar இல் தேர்ந்தெடுக்கப்பட்ட நினைவூட்டல்களைச் சேர்க்கிறது, மேலும் அறிவிப்புகள் உங்கள் சாதனத்தில் நினைவூட்டல்களை ஆதரிக்கின்றன. iOS அமைப்புகளில் இந்த அனுமதிகளை நீங்கள் நிர்வகிக்கலாம்.",
+        "ஆப்பிள் iCloud, CloudKit, உள்நுழைவு மற்றும் App Store கொள்முதல் சேவைகளை வழங்குகிறது. தற்போதைய பதிப்பு மூன்றாம் தரப்பு விளம்பரம் அல்லது பகுப்பாய்வு SDKகளைப் பயன்படுத்தாது, டெவலப்பர் இயக்கும் சேவையகத்திற்கு செல்லப்பிள்ளை பதிவுகளை அனுப்பாது அல்லது தனிப்பட்ட தகவலை விற்காது.",
+        "தொடர்புடைய பதிவுகளை நீக்கும் வரை அல்லது பயன்பாட்டை அகற்றும் வரை உங்கள் சாதனத்தில் உள்ள தகவல் இருக்கும். ஒத்திசைவை முடக்குவது iCloud இல் ஏற்கனவே உள்ள நகல்களை தானாகவே நீக்காது. ஏற்கனவே குடும்ப உறுப்பினர்களால் சேமிக்கப்பட்ட பிரதிகள் அவர்களிடம் இருக்கும். வீட்டு உறுப்பினர்கள் சேமித்த நகல்களும் ஏற்றுமதி செய்யப்பட்ட காப்புப்பிரதிகளும் அப்படியே இருக்கலாம். தனியுரிமைக் கேள்விகளுடன் இந்தப் பக்கத்தில் உள்ள மின்னஞ்சலைப் பயன்படுத்தி டெவெலப்பரைத் தொடர்புகொள்ளவும்."
+      ]
+    },
+    "support": {
+      "title": "உதவி & ஆதரவு",
+      "intro": "பயன்பாட்டுச் சிக்கல்கள், பொதுவான கருத்துகள் அல்லது அம்சக் கோரிக்கைகளுக்கு, MomentCat (iPet) டெவலப்பருக்கு மின்னஞ்சல் செய்யவும்.",
+      "details": [
+        "என்ன நடந்தது மற்றும் அதை மீண்டும் உருவாக்குவதற்கான படிகள்",
+        "உங்கள் சாதன மாதிரி, iOS பதிப்பு மற்றும் MomentCat பதிப்பு",
+        "நீங்கள் பரிந்துரைக்க விரும்பும் மேம்பாடு அல்லது அம்சம்"
+      ],
+      "emailLabel": "MomentCat ஆதரவைத் தொடர்பு கொள்ளவும்",
+      "privacyLink": "தனியுரிமைக் கொள்கையைப் படிக்கவும்"
+    }
   },
   "te": {
     "name": "తెలుగు", "direction": "ltr",
