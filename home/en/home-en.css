@@ -1,0 +1,15 @@
+.home-hero h1, .home-section-heading h2, .home-cta h2 { font-family: Georgia, "Times New Roman", serif; }
+.home-hero h1 { max-width: 10em; }
+.home-hero-screen { width: min(100%, 310px); }
+.home-hero-screen img { width: min(66%, 205px); margin: 25px auto 33px; border: 1px solid rgba(255, 255, 255, .9); border-radius: 28px; box-shadow: 0 20px 42px rgba(75, 52, 38, .2); }
+.home-note { display: none; }
+.feature-card { min-height: 280px; }
+.feature-card-copy { padding-top: 36px; }
+
+@media (max-width: 760px) {
+  .home-hero-screen img { width: min(76%, 180px); margin: 18px auto 20px; border-radius: 23px; }
+  .feature-card { display: block; min-height: 0; }
+  .feature-card-copy { padding: 20px 17px 21px 25px; }
+  .feature-card h3 { font-size: 17px; }
+  .feature-card-copy > p:last-child { font-size: 12px; }
+}
