@@ -1,0 +1,332 @@
+{
+  "ar": {
+    "heroTitle": "سجل الرعاية",
+    "heroDescription": "تابع سجلات اليوم والتذكيرات وتقدم الرعاية في مكان واحد.",
+    "healthTitle": "السجل الصحي",
+    "healthDescription": "سجّل الوزن والوجبات والعناية بالفراء لمتابعة حالة قطتك اليومية.",
+    "profileTitle": "ملف لكل قطة",
+    "profileDescription": "أضف صورة القطة وسلالتها ومعلوماتها الصحية وتذكيراتها.",
+    "timelineTitle": "ألبوم زمني للصور",
+    "timelineDescription": "احتفظ بالصور ومقاطع الفيديو حسب التاريخ لتجد الذكريات بسهولة."
+  },
+  "bn": {
+    "heroTitle": "বিড়ালের যত্নের ডায়েরি",
+    "heroDescription": "আজকের রেকর্ড, অনুস্মারক ও যত্নের অগ্রগতি এক জায়গায় দেখুন।",
+    "healthTitle": "স্বাস্থ্য ও যত্নের রেকর্ড",
+    "healthDescription": "ওজন, খাবার ও লোমের যত্নের তথ্য লিখে বিড়ালের দৈনন্দিন অবস্থা সহজে দেখুন।",
+    "profileTitle": "প্রতিটি বিড়ালের প্রোফাইল",
+    "profileDescription": "প্রতিটি বিড়ালের ছবি, জাত, স্বাস্থ্যতথ্য ও যত্নের অনুস্মারক যোগ করুন।",
+    "timelineTitle": "ছবির সময়রেখা",
+    "timelineDescription": "ছবি ও ভিডিও তারিখ অনুযায়ী সংরক্ষণ করুন, যাতে স্মৃতিগুলো সহজে খুঁজে পান।"
+  },
+  "ca": {
+    "heroTitle": "Cronologia de cures",
+    "heroDescription": "Consulta els registres d’avui, els recordatoris i l’evolució de les cures.",
+    "healthTitle": "Registres de salut",
+    "healthDescription": "Registra el pes, els àpats i la higiene per fer un seguiment diari més fàcil.",
+    "profileTitle": "Perfil d'animal de companyia",
+    "profileDescription": "Permet afegir una foto de perfil, la raça, els registres de salut i els recordatoris.",
+    "timelineTitle": "Cronologia de fotos",
+    "timelineDescription": "Les fotos i els vídeos s’ordenen cronològicament perquè sigui fàcil trobar els records."
+  },
+  "de": {
+    "heroTitle": "Pflegeverlauf",
+    "heroDescription": "Heutige Pflege im Überblick",
+    "healthTitle": "Gesundheitsdaten",
+    "healthDescription": "Erfassen Sie Gewicht, Mahlzeiten und Fellpflege, um die tägliche Pflege im Blick zu behalten.",
+    "profileTitle": "Tierprofil",
+    "profileDescription": "Erfassen Sie Foto, Rasse und Gesundheitsdaten und richten Sie Erinnerungen ein.",
+    "timelineTitle": "Foto-Zeitleiste",
+    "timelineDescription": "Fotos und Videos werden chronologisch angeordnet, damit Sie Erinnerungen leicht wiederfinden."
+  },
+  "en": {
+    "heroTitle": "Care Timeline",
+    "heroDescription": "View today's records, reminders, and care progress",
+    "healthTitle": "Health Records",
+    "healthDescription": "Track weight, meals, and grooming to review daily care at a glance.",
+    "profileTitle": "Pet Profile",
+    "profileDescription": "Create a profile for each cat with a photo, breed, health records, and reminders.",
+    "timelineTitle": "Photo Timeline",
+    "timelineDescription": "Browse photos and videos in chronological order to find memories easily."
+  },
+  "es": {
+    "heroTitle": "Cronología de cuidados",
+    "heroDescription": "Consulta en un solo lugar los registros y recordatorios de hoy y el seguimiento de los cuidados.",
+    "healthTitle": "Historial de salud",
+    "healthDescription": "Anota el peso, la alimentación y el aseo para seguir su estado diario.",
+    "profileTitle": "Perfil de cada gato",
+    "profileDescription": "Guarda la foto, la raza, los datos de salud y los recordatorios de cada gato.",
+    "timelineTitle": "Cronología de fotos",
+    "timelineDescription": "Guarda fotos y vídeos por fecha para volver a encontrar cada recuerdo."
+  },
+  "fr": {
+    "heroTitle": "Suivi des soins",
+    "heroDescription": "Retrouvez les soins du jour, les rappels et leur suivi au même endroit.",
+    "healthTitle": "Dossier de santé",
+    "healthDescription": "Notez le poids, les repas et le toilettage pour suivre son état au quotidien.",
+    "profileTitle": "Profil de chaque chat",
+    "profileDescription": "Ajoutez une photo, sa race, ses informations de santé et des rappels.",
+    "timelineTitle": "Chronologie des photos",
+    "timelineDescription": "Retrouvez facilement les photos et vidéos de chaque chat, classées par date."
+  },
+  "gu": {
+    "heroTitle": "કેર સમયરેખા",
+    "heroDescription": "આજના રેકોર્ડ, રીમાઇન્ડર્સ અને સંભાળની પ્રગતિ જુઓ",
+    "healthTitle": "આરોગ્ય રેકોર્ડ્સ",
+    "healthDescription": "દૈનિક સ્થિતિને વધુ સરળતાથી વાંચવા માટે વજન, ભોજન અને માવજતને ટ્રૅક કરો.",
+    "profileTitle": "બિલાડીની પ્રોફાઇલ",
+    "profileDescription": "દરેક બિલાડીનો ફોટો, જાતિ, આરોગ્યની માહિતી અને રીમાઇન્ડર ઉમેરો.",
+    "timelineTitle": "ફોટો સમયરેખા",
+    "timelineDescription": "ફોટા અને વિડિઓ તારીખ પ્રમાણે સાચવો, જેથી યાદોને સરળતાથી શોધી શકો."
+  },
+  "hi": {
+    "heroTitle": "देखभाल समयरेखा",
+    "heroDescription": "आज के रिकॉर्ड, अनुस्मारक और देखभाल प्रगति देखें",
+    "healthTitle": "स्वास्थ्य रिकॉर्ड",
+    "healthDescription": "वज़न, भोजन और बालों की देखभाल दर्ज करें, ताकि बिल्ली की रोज़ की स्थिति समझना आसान हो।",
+    "profileTitle": "बिल्ली की प्रोफ़ाइल",
+    "profileDescription": "हर बिल्ली की फ़ोटो, नस्ल, स्वास्थ्य जानकारी और रिमाइंडर जोड़ें।",
+    "timelineTitle": "फोटो समयरेखा",
+    "timelineDescription": "फ़ोटो और वीडियो तारीख़ के अनुसार सहेजें, ताकि यादें आसानी से मिलें।"
+  },
+  "hr": {
+    "heroTitle": "Vremenska crta skrbi",
+    "heroDescription": "Pogledajte današnje zapise, podsjetnike i napredak u skrbi",
+    "healthTitle": "Zdravstvene evidencije",
+    "healthDescription": "Pratite težinu, obroke i njegu kako biste lakše imali uvid u svakodnevno stanje mačke.",
+    "profileTitle": "Profil mačke",
+    "profileDescription": "U profilu mačke dodajte fotografiju, pasminu i zdravstvene podatke te postavite podsjetnike.",
+    "timelineTitle": "Vremenska crta fotografija",
+    "timelineDescription": "Fotografije i videozapisi spremaju se kronološki kako biste lakše pronašli uspomene."
+  },
+  "id": {
+    "heroTitle": "Linimasa Perawatan Kucing",
+    "heroDescription": "Lihat catatan, pengingat, dan perkembangan perawatan kucing hari ini di satu tempat.",
+    "healthTitle": "Catatan Kesehatan",
+    "healthDescription": "Catat berat badan, makanan, dan perawatan bulu untuk memahami kondisi harian kucing dengan lebih mudah.",
+    "profileTitle": "Profil Kucing",
+    "profileDescription": "Tambahkan foto, ras, informasi kesehatan, dan pengingat untuk setiap kucing.",
+    "timelineTitle": "Linimasa Foto",
+    "timelineDescription": "Simpan foto dan video berdasarkan tanggal agar kenangan mudah ditemukan."
+  },
+  "it": {
+    "heroTitle": "Diario delle cure",
+    "heroDescription": "Rivedi le attività di oggi, i promemoria e l’andamento delle cure.",
+    "healthTitle": "Scheda sanitaria",
+    "healthDescription": "Segna peso, pasti e toelettatura per seguire meglio la condizione quotidiana.",
+    "profileTitle": "Profilo di ogni gatto",
+    "profileDescription": "Aggiungi foto, razza, dati sanitari e promemoria per ogni gatto.",
+    "timelineTitle": "Cronologia delle foto",
+    "timelineDescription": "Ritrova facilmente foto e video di ogni gatto, ordinati per data."
+  },
+  "ja": {
+    "heroTitle": "ケアタイムライン",
+    "heroDescription": "今日の記録・リマインダー・ケア進捗を確認",
+    "healthTitle": "健康記録",
+    "healthDescription": "体重、食事、グルーミングを記録すると、日々の状態が把握しやすくなります。",
+    "profileTitle": "ペットプロフィール",
+    "profileDescription": "アバター、品種、健康記録、リマインダー設定に対応",
+    "timelineTitle": "フォトタイムライン",
+    "timelineDescription": "写真と動画は時間順に保存され、思い出を見つけやすくします"
+  },
+  "kn": {
+    "heroTitle": "ಕೇರ್ ಟೈಮ್ಲೈನ್",
+    "heroDescription": "ಇಂದಿನ ದಾಖಲೆಗಳು, ಜ್ಞಾಪನೆಗಳು ಮತ್ತು ಆರೈಕೆ ಪ್ರಗತಿ ವೀಕ್ಷಿಸಿ",
+    "healthTitle": "ಆರೋಗ್ಯ ದಾಖಲೆಗಳು",
+    "healthDescription": "ದೈನಂದಿನ ಸ್ಥಿತಿಯನ್ನು ಸುಲಭವಾಗಿ ಓದಲು ತೂಕ, ಊಟ ಮತ್ತು ಅಂದಗೊಳಿಸುವಿಕೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ.",
+    "profileTitle": "ಬೆಕ್ಕಿನ ಪ್ರೊಫೈಲ್",
+    "profileDescription": "ಪ್ರತಿ ಬೆಕ್ಕಿನ ಫೋಟೋ, ತಳಿ, ಆರೋಗ್ಯ ಮಾಹಿತಿ ಮತ್ತು ಜ್ಞಾಪನೆಗಳನ್ನು ಸೇರಿಸಿ.",
+    "timelineTitle": "ಫೋಟೋ ಟೈಮ್ಲೈನ್",
+    "timelineDescription": "ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ದಿನಾಂಕದ ಪ್ರಕಾರ ಉಳಿಸಿ, ನೆನಪುಗಳನ್ನು ಸುಲಭವಾಗಿ ಹುಡುಕಿ."
+  },
+  "ko": {
+    "heroTitle": "케어 타임라인",
+    "heroDescription": "오늘의 기록, 알림, 돌봄 진행 상황 보기",
+    "healthTitle": "건강 기록",
+    "healthDescription": "체중, 식사, 미용을 기록하면 일상 상태를 더 쉽게 파악할 수 있어요.",
+    "profileTitle": "반려동물 프로필",
+    "profileDescription": "아바타, 품종, 건강 기록, 알림 설정을 지원합니다.",
+    "timelineTitle": "사진 타임라인",
+    "timelineDescription": "사진과 동영상이 시간순으로 저장되어 추억을 쉽게 찾을 수 있어요"
+  },
+  "ml": {
+    "heroTitle": "പൂച്ച പരിചരണ ടൈംലൈൻ",
+    "heroDescription": "ഇന്നത്തെ രേഖകൾ, ഓർമ്മപ്പെടുത്തലുകൾ, പരിചരണ പുരോഗതി എന്നിവ ഒരിടത്ത് കാണൂ.",
+    "healthTitle": "ആരോഗ്യ രേഖകൾ",
+    "healthDescription": "ഭാരം, ഭക്ഷണം, രോമപരിചരണം എന്നിവ രേഖപ്പെടുത്തി പൂച്ചയുടെ ദിവസേനയുള്ള നില എളുപ്പത്തിൽ മനസ്സിലാക്കൂ.",
+    "profileTitle": "പൂച്ചയുടെ പ്രൊഫൈൽ",
+    "profileDescription": "ഓരോ പൂച്ചയുടെയും ചിത്രം, ഇനം, ആരോഗ്യവിവരങ്ങൾ, ഓർമ്മപ്പെടുത്തലുകൾ എന്നിവ ചേർക്കൂ.",
+    "timelineTitle": "ഫോട്ടോ ടൈംലൈൻ",
+    "timelineDescription": "ഫോട്ടോകളും വീഡിയോകളും തീയതി പ്രകാരം സൂക്ഷിച്ച് ഓർമ്മകൾ എളുപ്പത്തിൽ കണ്ടെത്തൂ."
+  },
+  "mr": {
+    "heroTitle": "केअर टाइमलाइन",
+    "heroDescription": "आजचे रेकॉर्ड, स्मरणपत्रे आणि काळजीची प्रगती पहा",
+    "healthTitle": "आरोग्य रेकॉर्ड्स",
+    "healthDescription": "वजन, जेवण आणि केसांच्या निगेची नोंद ठेवा, म्हणजे मांजरीची रोजची स्थिती समजणे सोपे होईल.",
+    "profileTitle": "मांजरीचे प्रोफाइल",
+    "profileDescription": "प्रत्येक मांजरीचा फोटो, जात, आरोग्यविषयक माहिती आणि स्मरणपत्रे जोडा.",
+    "timelineTitle": "फोटो टाइमलाइन",
+    "timelineDescription": "फोटो आणि व्हिडिओ तारखेनुसार जतन करा, म्हणजे आठवणी सहज शोधता येतील."
+  },
+  "ms": {
+    "heroTitle": "Garis Masa Penjagaan Kucing",
+    "heroDescription": "Lihat rekod, peringatan dan kemajuan penjagaan kucing hari ini di satu tempat.",
+    "healthTitle": "Rekod Kesihatan",
+    "healthDescription": "Catat berat badan, makanan dan penjagaan bulu untuk menjejaki keadaan harian kucing.",
+    "profileTitle": "Profil Setiap Kucing",
+    "profileDescription": "Tambah foto, baka, maklumat kesihatan dan peringatan bagi setiap kucing.",
+    "timelineTitle": "Garis Masa Foto",
+    "timelineDescription": "Simpan foto dan video mengikut tarikh supaya kenangan mudah dicari."
+  },
+  "nl": {
+    "heroTitle": "Tijdlijn van de zorg",
+    "heroDescription": "Bekijk de registraties van vandaag, je herinneringen en de voortgang van de verzorging.",
+    "healthTitle": "Gezondheidsgegevens",
+    "healthDescription": "Houd gewicht, maaltijden en verzorging bij om de dagelijkse zorg voor je kat beter te volgen.",
+    "profileTitle": "Huisdierprofiel",
+    "profileDescription": "Maak een profiel met een foto, ras, gezondheidsgegevens en herinneringen.",
+    "timelineTitle": "Fototijdlijn",
+    "timelineDescription": "Foto's en video's staan op datum gesorteerd, zodat je herinneringen makkelijk terugvindt."
+  },
+  "pl": {
+    "heroTitle": "Oś czasu opieki nad kotem",
+    "heroDescription": "Zobacz w jednym miejscu dzisiejsze wpisy, przypomnienia i postępy w opiece nad kotem.",
+    "healthTitle": "Rejestr zdrowia",
+    "healthDescription": "Śledź wagę, posiłki i pielęgnację sierści, aby łatwiej kontrolować codzienny stan kota.",
+    "profileTitle": "Profil każdego kota",
+    "profileDescription": "Dodaj zdjęcie, rasę, informacje o zdrowiu i przypomnienia dla każdego kota.",
+    "timelineTitle": "Oś czasu zdjęć",
+    "timelineDescription": "Zapisuj zdjęcia i filmy według daty, aby łatwo odnajdywać wspomnienia."
+  },
+  "pt-BR": {
+    "heroTitle": "Diário de cuidados",
+    "heroDescription": "Veja em um só lugar os registros, lembretes e o progresso dos cuidados de hoje.",
+    "healthTitle": "Registros de Saúde",
+    "healthDescription": "Acompanhe o peso, as refeições e os cuidados com a pelagem para entender melhor a condição diária do seu gato.",
+    "profileTitle": "Perfil do Pet",
+    "profileDescription": "Inclua foto, raça, informações de saúde e lembretes no perfil do seu pet.",
+    "timelineTitle": "Linha do tempo de fotos",
+    "timelineDescription": "Fotos e vídeos organizados por data para você encontrar cada lembrança com facilidade."
+  },
+  "ro": {
+    "heroTitle": "Cronologie de îngrijire",
+    "heroDescription": "Vezi într-un singur loc înregistrările și mementourile de azi, plus evoluția îngrijirii.",
+    "healthTitle": "Înregistrări de sănătate",
+    "healthDescription": "Urmărește greutatea, mesele și îngrijirea, pentru a vedea mai ușor starea zilnică.",
+    "profileTitle": "Profilul animalelor de companie",
+    "profileDescription": "Adaugă o fotografie, rasa, date despre sănătate și mementouri.",
+    "timelineTitle": "Cronologie foto",
+    "timelineDescription": "Fotografiile și videoclipurile sunt ordonate după dată, ca să găsești ușor amintirile."
+  },
+  "ru": {
+    "heroTitle": "Хронология ухода за кошкой",
+    "heroDescription": "В одном месте собраны сегодняшние записи и напоминания, чтобы вам было удобнее заботиться о кошке.",
+    "healthTitle": "Записи о здоровье",
+    "healthDescription": "Отслеживайте вес, питание и уход за шерстью, чтобы лучше понимать состояние кошки каждый день.",
+    "profileTitle": "Профиль питомца",
+    "profileDescription": "В профиле питомца можно указать фото, породу и сведения о здоровье, а также настроить напоминания.",
+    "timelineTitle": "Хронология фотографий",
+    "timelineDescription": "Храните фото и видео по датам, чтобы легко находить воспоминания."
+  },
+  "sl": {
+    "heroTitle": "Časovnica nege mačke",
+    "heroDescription": "Na enem mestu si oglejte današnje zapise, opomnike in napredek pri negi mačke.",
+    "healthTitle": "Zdravstveni zapisi",
+    "healthDescription": "Z beleženjem teže, obrokov in nege dlake boste lažje spremljali vsakodnevno stanje mačke.",
+    "profileTitle": "Profil vsake mačke",
+    "profileDescription": "Dodajte fotografijo, pasmo, zdravstvene podatke in opomnike za vsako mačko.",
+    "timelineTitle": "Časovnica fotografij",
+    "timelineDescription": "Fotografije in videi so urejeni po datumu, da lažje najdete spomine."
+  },
+  "ta": {
+    "heroTitle": "பூனை கவனிப்பு காலவரிசை",
+    "heroDescription": "இன்றைய பதிவுகள், நினைவூட்டல்கள் மற்றும் கவனிப்பு முன்னேற்றத்தைக் காண்க",
+    "healthTitle": "சுகாதார பதிவுகள்",
+    "healthDescription": "தினசரி நிலையை மிக எளிதாக படிக்க எடை, உணவு மற்றும் சீர்ப்படுத்தல் ஆகியவற்றைக் கண்காணிக்கவும்.",
+    "profileTitle": "பூனை சுயவிவரம்",
+    "profileDescription": "ஒவ்வொரு பூனையின் புகைப்படம், இனம், உடல்நலத் தகவல் மற்றும் நினைவூட்டல்களைச் சேர்க்கவும்.",
+    "timelineTitle": "புகைப்பட காலவரிசை",
+    "timelineDescription": "புகைப்படங்களையும் வீடியோக்களையும் தேதிவாரியாகச் சேமித்து, நினைவுகளை எளிதாகக் கண்டறியுங்கள்."
+  },
+  "te": {
+    "heroTitle": "కేర్ టైమ్‌లైన్",
+    "heroDescription": "నేటి రికార్డులు, రిమైండర్‌లు మరియు సంరక్షణ పురోగతిని వీక్షించండి",
+    "healthTitle": "హెల్త్ రికార్డ్స్",
+    "healthDescription": "రోజువారీ స్థితిని మరింత సులభంగా తెలుసుకోవడానికి బరువు, భోజనం మరియు బొచ్చు సంరక్షణను నమోదు చేయండి.",
+    "profileTitle": "పిల్లి ప్రొఫైల్",
+    "profileDescription": "ప్రతి పిల్లి ఫోటో, జాతి, ఆరోగ్య సమాచారం, రిమైండర్‌లను జోడించండి.",
+    "timelineTitle": "ఫోటో కాలక్రమం",
+    "timelineDescription": "ఫోటోలు, వీడియోలను తేదీ ప్రకారం భద్రపరచి, జ్ఞాపకాలను సులభంగా కనుగొనండి."
+  },
+  "th": {
+    "heroTitle": "ไทม์ไลน์การดูแลแมว",
+    "heroDescription": "ดูบันทึกประจำวัน การแจ้งเตือน และความคืบหน้าในการดูแลแมวได้ในที่เดียว",
+    "healthTitle": "ประวัติสุขภาพ",
+    "healthDescription": "ติดตามน้ำหนัก มื้ออาหาร และการดูแลขน เพื่อดูสภาพประจำวันของแมวได้ง่ายขึ้น",
+    "profileTitle": "โปรไฟล์แมวแต่ละตัว",
+    "profileDescription": "เพิ่มรูปภาพ สายพันธุ์ ข้อมูลสุขภาพ และการแจ้งเตือนสำหรับแมวแต่ละตัว",
+    "timelineTitle": "ไทม์ไลน์รูปภาพ",
+    "timelineDescription": "จัดเก็บรูปภาพและวิดีโอตามวันที่ เพื่อให้ค้นหาความทรงจำได้ง่าย"
+  },
+  "tr": {
+    "heroTitle": "Bakım günlüğü",
+    "heroDescription": "Bugünün kayıtlarını, hatırlatmalarını ve bakım ilerlemesini tek yerde gör.",
+    "healthTitle": "Sağlık kayıtları",
+    "healthDescription": "Kilosunu, öğünlerini ve bakımını kaydederek günlük durumunu takip et.",
+    "profileTitle": "Her kediye özel profil",
+    "profileDescription": "Her kedi için fotoğraf, ırk, sağlık bilgileri ve hatırlatmalar ekle.",
+    "timelineTitle": "Fotoğraf zaman çizelgesi",
+    "timelineDescription": "Fotoğraf ve videoları tarihe göre düzenli tut, anıları kolayca yeniden bul."
+  },
+  "uk": {
+    "heroTitle": "Хронологія догляду за котом",
+    "heroDescription": "Переглядайте в одному місці записи й нагадування на сьогодні, щоб зручніше дбати про кота.",
+    "healthTitle": "Записи про здоров’я",
+    "healthDescription": "Відстежуйте вагу, харчування та догляд за шерстю, щоб краще розуміти щоденний стан кота.",
+    "profileTitle": "Профіль кожного кота",
+    "profileDescription": "Додавайте фото, породу, дані про здоров’я та нагадування для кожного кота.",
+    "timelineTitle": "Стрічка фотографій",
+    "timelineDescription": "Зберігайте фото й відео за датою, щоб легко знаходити спогади."
+  },
+  "ur": {
+    "heroTitle": "بلی کی دیکھ بھال کی ڈائری",
+    "heroDescription": "آج کے ریکارڈ، یاد دہانیاں اور دیکھ بھال کی پیش رفت ایک جگہ دیکھیں۔",
+    "healthTitle": "صحت کے ریکارڈ",
+    "healthDescription": "بلی کی روزانہ صحت سمجھنے کے لیے وزن، خوراک اور بالوں کی دیکھ بھال درج کریں۔",
+    "profileTitle": "بلی کا پروفائل",
+    "profileDescription": "ہر بلی کی تصویر، نسل، صحت کی معلومات اور یاد دہانیاں شامل کریں۔",
+    "timelineTitle": "تصاویر کی ٹائم لائن",
+    "timelineDescription": "تصاویر اور ویڈیوز تاریخ کے مطابق محفوظ کریں تاکہ یادیں آسانی سے مل جائیں۔"
+  },
+  "vi": {
+    "heroTitle": "Dòng thời gian chăm sóc mèo",
+    "heroDescription": "Xem nhật ký hôm nay, lời nhắc và tiến độ chăm sóc ở cùng một nơi.",
+    "healthTitle": "Hồ sơ sức khỏe",
+    "healthDescription": "Theo dõi cân nặng, bữa ăn và việc chăm sóc lông để dễ nắm tình trạng hằng ngày của mèo.",
+    "profileTitle": "Hồ sơ từng chú mèo",
+    "profileDescription": "Thêm ảnh, giống mèo, thông tin sức khỏe và lời nhắc cho từng bé.",
+    "timelineTitle": "Dòng thời gian ảnh",
+    "timelineDescription": "Lưu ảnh và video theo ngày để dễ dàng tìm lại kỷ niệm."
+  },
+  "zh-Hans": {
+    "heroTitle": "照护时间线",
+    "heroDescription": "查看今天的记录、提醒和照护进度",
+    "healthTitle": "健康档案",
+    "healthDescription": "记录体重、饮食和洗护情况，方便回顾日常照护。",
+    "profileTitle": "宠物档案",
+    "profileDescription": "支持头像、品种、健康记录和提醒设置",
+    "timelineTitle": "相册时间线",
+    "timelineDescription": "照片和视频按时间整理，方便查找回忆。"
+  },
+  "zh-Hant-TW": {
+    "heroTitle": "照護時間線",
+    "heroDescription": "查看今天的記錄、提醒和照護進度",
+    "healthTitle": "健康檔案",
+    "healthDescription": "記錄體重、飲食和洗護情況，方便回顧日常照護。",
+    "profileTitle": "寵物檔案",
+    "profileDescription": "支援頭像、品種、健康紀錄和提醒設定",
+    "timelineTitle": "相冊時間線",
+    "timelineDescription": "照片與影片依時間整理，方便找回回憶。"
+  }
+}
