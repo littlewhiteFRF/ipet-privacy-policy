@@ -1,0 +1,55 @@
+.home-international {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Noto Sans", sans-serif;
+}
+
+.home-international .home-hero h1,
+.home-international .home-section-heading h2,
+.home-international .home-cta h2,
+.home-international .feature-card h2 {
+  font-family: inherit;
+  letter-spacing: normal;
+}
+
+.home-international .home-hero h1 { overflow-wrap: anywhere; }
+.home-international .home-hero-screen img { width: min(76%, 235px); margin: 20px auto 24px; }
+.home-international .feature-card { min-height: 0; }
+.home-international .feature-card-copy { padding: 32px 25px 34px 30px; }
+.home-international .feature-card h2 { margin: 0 0 11px; font-size: 21px; }
+.home-international .feature-card-copy > p:last-child { font-size: 14px; }
+.home-international .home-features { padding-bottom: 72px; }
+.home-international .home-cta { margin-bottom: 48px; }
+
+html[dir="rtl"] .home-international .home-hero::before {
+  right: 24px;
+  left: auto;
+  border-right: 1px solid rgba(201, 141, 103, .42);
+  border-left: 0;
+  border-radius: 0 12px 0 0;
+}
+
+html[dir="rtl"] .home-international .home-hero { border-radius: 34px 34px 8px 34px; }
+
+html[dir="rtl"] .home-international .feature-card::before {
+  right: 13px;
+  left: auto;
+}
+
+html[dir="rtl"] .home-international .feature-card-copy { padding-right: 30px; padding-left: 25px; }
+
+@media (max-width: 760px) {
+  .home-international .feature-card { display: block; }
+  .home-international .feature-card-copy { padding: 21px 18px 23px 25px; }
+  .home-international .feature-card h2 { font-size: 18px; }
+  .home-international .feature-card-copy > p:last-child { font-size: 13px; }
+  .home-international .home-cta { align-items: center; flex-direction: row; }
+}
+
+@media (max-width: 390px) {
+  .home-international .home-hero { grid-template-columns: minmax(0, 1fr) 32%; }
+  .home-international .home-hero h1 { font-size: 31px; }
+  .home-international .home-hero-description { font-size: 11px; }
+}
+
+@media (max-width: 360px) {
+  .home-international .home-hero { grid-template-columns: minmax(0, 1fr); }
+}
