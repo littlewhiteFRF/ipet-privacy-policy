@@ -1,7 +1,7 @@
 const appLanguages = [
   'zh-Hans', 'zh-Hant', 'zh-Hant-TW', 'zh-Hant-HK', 'ja', 'ko', 'en', 'es', 'pt-BR',
   'fr', 'hi', 'ar', 'ru', 'id', 'de', 'vi', 'tr', 'bn', 'ms', 'th', 'it', 'pl',
-  'ur', 'nl', 'ro', 'uk', 'fa', 'sw', 'fil', 'es-ES', 'en-GB', 'mr', 'te'
+  'ur', 'nl', 'ro', 'uk', 'ca', 'hr', 'sl', 'gu', 'kn', 'ml', 'fa', 'sw', 'fil', 'es-ES', 'en-GB', 'mr', 'ta', 'te'
 ];
 
 const languageByLowercase = new Map(appLanguages.map(code => [code.toLowerCase(), code]));
@@ -33,7 +33,7 @@ export function resolveLanguage(languageTag) {
   return findLanguage(languageTag) ?? 'zh-Hans';
 }
 
-export function supportMailto(languageCode) {
-  const subject = encodeURIComponent('MomentCat iPet Support');
+export function supportMailto(subjectText) {
+  const subject = encodeURIComponent(subjectText);
   return `mailto:rolf1120802408@gmail.com?subject=${subject}`;
 }
